@@ -1,0 +1,11 @@
+# Historical server files are retained locally, never committed or published.
+*.php
+.htaccess*
+.vscode/
+.deploy-backups/
+.well-known/
+cgi-bin/
+.DS_Store
+node_modules/
+dist/
+kotobgy-github-pages.zip

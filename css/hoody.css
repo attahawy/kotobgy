@@ -1,0 +1,22 @@
+body > * {
+	font-family: "Tahoma", sans-serif !important;
+	font-size: 14px !important;
+	}
+h1, h2, h3, h4 {
+	font-family: "Arial", serif;
+}
+
+.cover-blank {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.bookcover {
+    border:1px solid #dddddd;
+}
+.rtl {
+	direction: rtl;
+}
+.ltr {
+	direction: ltr;
+}
