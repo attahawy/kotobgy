@@ -85,7 +85,8 @@ footer{border-top:1px solid var(--line);padding:54px 0 44px;display:grid;grid-te
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.app-card,.app-slide{transition:none}}
 
 /* Static pages: keep conditional sections hidden despite component display rules. */
-.muslim-apps .app-art{background:#fbf8f0;color:#173c36}
+.muslim-apps .app-art{height:auto;aspect-ratio:1;background:transparent}
+.muslim-apps .app-art img{display:block;width:100%;height:auto}
 .has-results .apps-section{border-top:1px solid var(--line);padding-top:64px}
 [hidden]{display:none!important}
 .javascript-note{width:min(1180px,calc(100% - 48px));margin:24px auto;color:var(--coral)}
