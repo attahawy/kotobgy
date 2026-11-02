@@ -7,7 +7,7 @@ const dist = path.join(root, 'dist');
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 // Explicit public allowlist: never copy PHP, editor settings, backups or credentials.
-for (const entry of ['index.html', 'js', 'img', 'css']) {
+for (const entry of ['CNAME', 'index.html', 'js', 'img', 'css']) {
   await cp(path.join(root, entry), path.join(dist, entry), { recursive: true, dereference: true });
 }
 await writeFile(path.join(dist, '.nojekyll'), '');
